@@ -1,0 +1,121 @@
+/* Variabel CSS */
+:root {
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+}
+
+/* Header */
+header {
+    background: var(--bg-color);
+    transition: background 0.45s ease;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.navbar-brand span {
+    color: var(--main-color);
+}
+
+.navbar-nav .nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+.image {
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    transform: rotateY(130deg);
+   
+}
+
+.image img {
+    height:290px;
+    width: 288px;
+    position: -webkit-sticky;
+    bottom: 0;
+    right: 20%;
+    transform: translateX(20%);
+    border-radius: 100%;
+}
+
+
+.menu-btn {
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.7);
+    border: 1px solid #3b3b3b;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#menu-icon {
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+/* Home Section */
+.home {
+    background: var(--bg-color);
+}
+
+.home-text {
+    max-width: 50%;
+}
+
+.home-text span {
+    font-size: 1.1rem;
+    color: var(--main-color);
+}
+
+.home-text h1 {
+    font-size: 4rem;
+    color: var(--text-color);
+    margin: 20px 0;
+}
+
+.home-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.main-btn .btn {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 25px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.main-btn .btn-warning {
+    background: var(--main-color);
+    color: var(--text-color);
+}
+
+.main-btn .btn-outline-warning {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.main-btn .btn:hover {
+    background: transparent;
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.home-img img {
+    border-radius: 10px;
+}
